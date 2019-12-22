@@ -69,9 +69,9 @@ def movies_with_directors_set(source)
   #
   new_array = []
   i = 0
-  j = 0
   while i < source.length
   new_array << source[i][:movies]
+  j = 0
   while j < source[i][:movies].length
 new_array[i][j][:director_name] = source[i][:name]
 j += 1
@@ -80,7 +80,7 @@ end
 end
 
 #new_array[0][0][:director_name] = "Byron Poodle"
-new_array.last.first[:director_name] = "Nancy Drew"
+#new_array.last.first[:director_name] = "Nancy Drew"
   # INPUT:
   # * source: An Array of Hashes containing director information including
   # :name and :movies
