@@ -79,8 +79,7 @@ end
  i += 1
 end
 
-#new_array[0][0][:director_name] = "Byron Poodle"
-#new_array.last.first[:director_name] = "Nancy Drew"
+
   # INPUT:
   # * source: An Array of Hashes containing director information including
   # :name and :movies
